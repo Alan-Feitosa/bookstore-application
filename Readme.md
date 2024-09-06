@@ -56,29 +56,6 @@ REACT_APP_API_URL=http://backend:5050
     docker compose up --build -d
     ```
 
-**Directory Structure**
-bookstore-application/
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── utils/
-│   │   └── server.ts
-│   ├── Dockerfile
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── styles/
-│   │   └── App.tsx
-│   ├── Dockerfile
-│   └── package.json
-├── docker-compose.yml
-├── .env
-└── README.md
-
 ## Usage
 Backend: The backend server runs on port 5050 and handles API requests, connects to MongoDB, and manages JWT authentication.
 Frontend: The frontend application runs on port 5173 and communicates with the backend via the API.
