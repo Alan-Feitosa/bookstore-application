@@ -71,9 +71,3 @@ Feel free to contribute to the project by submitting issues, feature requests, o
 
 Author
 Alan Feitosa
-
-### Notes:
-- **Replace** `https://github.com/yourusername/bookstore-application.git` with the actual URL of your repository.
-- **Replace** `https://github.com/Alan-Feitosa` with your actual GitHub profile URL.
-- Make sure the directory structure and filenames match your actual project setup.
-- Adjust the usage and configuration sections based on your specific implementation details.
