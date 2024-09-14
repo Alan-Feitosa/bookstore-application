@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -10,10 +11,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@commitlint/cli": "^19.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.24.7",
+    "eslint-plugin-react": "^7.35.2",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10",
     "@eslint/js": "^9.9.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
