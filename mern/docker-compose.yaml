@@ -6,7 +6,7 @@ services:
     networks:
       - mern_network
     environment:
-      MONGO_URI: ${MONGO_URI}  
+      MONGO_URI: ${DATABASE_URI}  
     depends_on:
       - mongodb
 
